@@ -1,7 +1,5 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Nav from "./landing/nav";
-const inter = Inter({ subsets: ["latin"] });
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
@@ -16,9 +14,14 @@ export default function Home() {
           Iam JOSHIK ROSHAN
         </h1>
         <br></br>
-        <h1 className="text-4xl text-white font-display font-semibold">
-          A Full Stack Web Devloper
-        </h1>
+        <Typewriter
+          options={{
+            strings: ["AN IIT GRADUATE", "A FULL STACK DEVELOPER"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+        Readme
       </div>
     </div>
   );

@@ -4,7 +4,10 @@
 body {
   background-color: black;
 }
- 
+span {
+  color: white;
+  font-size: 40px;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
