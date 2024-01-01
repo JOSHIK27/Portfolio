@@ -20,7 +20,13 @@ export default function Nav() {
       <Button variant="ghost" className="text-lg text-white bg-black mr-8">
         Projects
       </Button>
-      <Button variant="ghost" className="text-lg text-white bg-black mr-8">
+      <Button
+        onClick={() => {
+          router.push("/skills");
+        }}
+        variant="ghost"
+        className="text-lg text-white bg-black mr-8"
+      >
         Skills
       </Button>
       <Button
