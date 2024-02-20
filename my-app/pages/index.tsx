@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Nav />
-      <div className="ml-32 mt-28">
+      <div className="sm:ml-32 mt-28 justify-start sm:justify-normal">
         <h1 className="text-6xl text-white font-display font-semibold mb-4">
           Hello!
         </h1>
@@ -27,7 +27,7 @@ export default function Home() {
         />
         Readme
       </div>
-      <div className="flex mt-8 ml-32">
+      <div className="flex mt-8 sm:ml-32 justify-start sm:justify-normal">
         <img
           width="48"
           height="48"
