@@ -16,7 +16,11 @@ export default function Home() {
         <br></br>
         <Typewriter
           options={{
-            strings: ["AN IIT GRADUATE", "A FULL STACK DEVELOPER"],
+            strings: [
+              "AN IIT GRADUATE",
+              "A Graduate Student in DATA SCIENCE",
+              "A SELF TAUGHT FULL STACK DEVELOPER",
+            ],
             autoStart: true,
             loop: true,
           }}
