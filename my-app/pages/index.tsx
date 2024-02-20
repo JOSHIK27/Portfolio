@@ -30,6 +30,9 @@ export default function Home() {
           src="https://img.icons8.com/color/48/twitter--v1.png"
           alt="twitter--v1"
           className="mr-4"
+          onClick={() => {
+            window.open("https://twitter.com/aspirant_4021");
+          }}
         />
         <img
           width="48"
@@ -37,12 +40,18 @@ export default function Home() {
           src="https://img.icons8.com/color/48/linkedin.png"
           alt="linkedin"
           className="mr-4"
+          onClick={() => {
+            window.open("https://www.linkedin.com/in/joshik-roshan-21873722b/");
+          }}
         />
         <img
           width="48"
           height="48"
           src="https://img.icons8.com/material-outlined/48/FFFFFF/github.png"
           alt="github"
+          onClick={() => {
+            window.open("https://www.github.com/joshik27");
+          }}
         />
       </div>
     </div>

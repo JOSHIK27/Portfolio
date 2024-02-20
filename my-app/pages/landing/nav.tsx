@@ -17,7 +17,22 @@ export default function Nav() {
       >
         About
       </Button>
-      <Button variant="ghost" className="text-lg text-white bg-black mr-8">
+      <Button
+        onClick={() => {
+          router.push("/achievements");
+        }}
+        variant="ghost"
+        className="text-lg text-white bg-black mr-8"
+      >
+        Achievements
+      </Button>
+      <Button
+        onClick={() => {
+          router.push("/projects");
+        }}
+        variant="ghost"
+        className="text-lg text-white bg-black mr-8"
+      >
         Projects
       </Button>
       <Button
