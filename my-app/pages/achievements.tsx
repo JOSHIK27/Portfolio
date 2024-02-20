@@ -4,7 +4,7 @@ export default function Achievements() {
   return (
     <div>
       <Nav />
-      <div className="mt-20 ml-20">
+      <div className="mt-20 ml-8 sm:ml-20">
         <div className="flex items-center mb-4">
           <img
             width="24"
