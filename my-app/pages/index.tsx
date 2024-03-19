@@ -6,28 +6,30 @@ export default function Home() {
     <div>
       <Nav />
       <div className="sm:ml-32 mt-28 justify-start sm:justify-normal">
-        <h1 className="text-6xl text-white font-display font-semibold mb-4">
+        <h1 className="text-6xl text-white font-display font-thin mb-4 px-[24px]">
           Hello!
         </h1>
         <br />
-        <h1 className="font-display text-white text-7xl mb-[13px]">
+        <h1 className="font-display text-white text-7xl mb-[13px] px-[24px]">
           Iam JOSHIK ROSHAN
         </h1>
         <br></br>
-        <Typewriter
-          options={{
-            strings: [
-              "AN IIT GRADUATE",
-              "A Graduate Student in DATA SCIENCE",
-              "A SELF TAUGHT FULL STACK DEVELOPER",
-            ],
-            autoStart: true,
-            loop: true,
-          }}
-        />
+        <div style={{ paddingLeft: 24, fontWeight: 100 }}>
+          <Typewriter
+            options={{
+              strings: [
+                "AN IIT GRADUATE",
+                "A Graduate Student in DATA SCIENCE",
+                "A SELF TAUGHT FULL STACK DEVELOPER",
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </div>
         Readme
       </div>
-      <div className="flex mt-8 sm:ml-32 justify-start sm:justify-normal">
+      <div className="flex mt-8 sm:ml-32 px-[24px] justify-start sm:justify-normal">
         <img
           width="48"
           height="48"

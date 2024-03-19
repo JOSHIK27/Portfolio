@@ -22,7 +22,7 @@ export default function CarouselDemo() {
           src={hamburger.src}
           height={60}
           width={60}
-          className="lg:hidden text-white text-lg ml-4"
+          className="lg:hidden text-white font-extralight text-lg ml-4"
           onClick={toggleMenu}
         ></img>
         <div
@@ -36,7 +36,7 @@ export default function CarouselDemo() {
               toggleMenu();
             }}
             variant="ghost"
-            className="text-lg text-white mr-4"
+            className="text-lg text-white font-extralight mr-4"
           >
             About
           </Button>
@@ -46,7 +46,7 @@ export default function CarouselDemo() {
               toggleMenu();
             }}
             variant="ghost"
-            className="text-lg text-white bg-black mr-4"
+            className="text-lg text-white font-extralight bg-black mr-4"
           >
             Achievements
           </Button>
@@ -56,7 +56,7 @@ export default function CarouselDemo() {
               toggleMenu();
             }}
             variant="ghost"
-            className="text-lg text-white bg-black mr-4"
+            className="text-lg text-white font-extralight bg-black mr-4"
           >
             Projects
           </Button>
@@ -66,7 +66,7 @@ export default function CarouselDemo() {
               toggleMenu();
             }}
             variant="ghost"
-            className="text-lg text-white bg-black mr-4"
+            className="text-lg text-white font-extralight bg-black mr-4"
           >
             Experience
           </Button>
@@ -76,7 +76,7 @@ export default function CarouselDemo() {
               toggleMenu();
             }}
             variant="ghost"
-            className="text-lg text-white bg-black mr-4"
+            className="text-lg text-white font-extralight bg-black mr-4"
           >
             Skills
           </Button>
@@ -86,7 +86,7 @@ export default function CarouselDemo() {
               toggleMenu();
             }}
             variant="ghost"
-            className="text-lg text-white bg-black mr-4"
+            className="text-lg text-white font-extralight bg-black mr-4"
           >
             Education
           </Button>
