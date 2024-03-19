@@ -45,7 +45,9 @@ export default function Home() {
           alt="linkedin"
           className="mr-4"
           onClick={() => {
-            window.open("https://www.linkedin.com/in/joshik-roshan-21873722b/");
+            window.open(
+              "https://www.linkedin.com/in/joshik-narayana-21873722b/"
+            );
           }}
         />
         <img

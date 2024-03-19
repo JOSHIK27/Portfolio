@@ -1,5 +1,5 @@
 import Nav from "./landing/nav";
-import { useSpring, animated, Spring } from "@react-spring/web";
+import { useSpring, animated } from "@react-spring/web";
 
 export default function Education() {
   const [props, api] = useSpring(
