@@ -1,14 +1,4 @@
 import * as React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import trendytrance from "../images/trendytrance.png";
-import codeschool from "../images/codeschool.png";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -69,6 +59,16 @@ export default function CarouselDemo() {
             className="text-lg text-white bg-black mr-4"
           >
             Projects
+          </Button>
+          <Button
+            onClick={() => {
+              router.push("/experience");
+              toggleMenu();
+            }}
+            variant="ghost"
+            className="text-lg text-white bg-black mr-4"
+          >
+            Experience
           </Button>
           <Button
             onClick={() => {
