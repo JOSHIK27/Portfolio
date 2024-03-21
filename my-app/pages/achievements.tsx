@@ -37,7 +37,8 @@ export default function Achievements() {
             alt="star--v1"
           />
           <span className="text-white ml-2 font-display text-2xl font-thin">
-            Among top 6 percent coders in LeetCode
+            Among top 25 (KNIGHT) percent coders of all time (World wide) in
+            LeetCode
           </span>
         </div>
 
